@@ -2,16 +2,17 @@
 
   <div class="container">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">Log Viewer</div>
-      <div class="panel-body" id="log-window">No logs to show</div>
-    </div>
-
     <h1><%= title %></h1>
     <a href="/select-file">Select File</a>
     <br>
     <a href="/settings">Settings</a>
 
+    <div class="panel panel-default">
+      <div class="panel-heading">Log Viewer</div>
+      <div class="panel-body" id="log-window">No logs to show</div>
+    </div>
+
+    <input type="text" id="logFilePath" value="<%= logFile %>" hidden>
     
   </div>
 
